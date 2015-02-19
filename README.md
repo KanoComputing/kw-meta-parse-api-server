@@ -51,6 +51,16 @@ The server will be started `http://localhost:2000` or listen to a custom set by 
     "error"   : "Not found"
 }
 
+### Try it
+
+Here's some live examples:
+
+[Kano home page](http://metaparse.herokuapp.com/meta/?q=www.kano.me)
+[Guardian home page](http://metaparse.herokuapp.com/meta/?q=guardian.co.uk)
+[Tech Crunch post](http://kano-metaparse.herokuapp.com/meta/?q=http://techcrunch.com/2013/11/19/kano-kickstarter/)
+
+Enjoy!
+
 ### Licence
 
 Copyright (c) 2015 Kano Computing Ltd. - Released under the MIT license
