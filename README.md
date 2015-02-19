@@ -46,10 +46,13 @@ The server will be started `http://localhost:2000` or listen to a custom set by 
 ```
 
 **Example negative response**
+
+```json
 {
     "success" : false,
     "error"   : "Not found"
 }
+```
 
 ### Try it
 
