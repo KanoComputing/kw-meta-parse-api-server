@@ -4,7 +4,7 @@
 
 ### Setup
 
-```
+```bash
 git clone git@github.com:KanoComputing/kw-meta-parse-api-server.git
 cd kw-meta-parse-api-server
 npm install
