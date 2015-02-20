@@ -4,7 +4,7 @@
 
 ### Setup
 
-```
+```bash
 git clone git@github.com:KanoComputing/kw-meta-parse-api-server.git
 cd kw-meta-parse-api-server
 npm install
@@ -46,10 +46,23 @@ The server will be started `http://localhost:2000` or listen to a custom set by 
 ```
 
 **Example negative response**
+
+```json
 {
     "success" : false,
     "error"   : "Not found"
 }
+```
+
+### Try it
+
+Here's some live examples:
+
+* [Kano home page](http://metaparse.herokuapp.com/meta/?q=www.kano.me)
+* [Guardian home page](http://metaparse.herokuapp.com/meta/?q=guardian.co.uk)
+* [Tech Crunch post](http://metaparse.herokuapp.com/meta/?q=http://techcrunch.com/2013/11/19/kano-kickstarter/)
+
+Enjoy!
 
 ### Licence
 
