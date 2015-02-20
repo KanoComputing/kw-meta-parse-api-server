@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.18.0",
+    "cors": "^2.5.3",
     "express": "^4.11.2",
     "query-string": "^1.0.0",
     "request": "^2.53.0",
