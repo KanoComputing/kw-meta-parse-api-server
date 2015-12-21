@@ -10,12 +10,12 @@ var express = require('express'),
  */
 module.exports = function (root) {
     var app = express(),
-    	routes = require('./lib/routes')(root);
+        routes = require('./lib/routes')(root);
 
-    	// Enable CORS
-		app.use(cors());
+    // Enable CORS
+    app.use(cors());
 
-		// Instanciate routes
-		app.use('/', routes);
-	return app;
+    // Instanciate routes
+    app.use('/', routes);
+    return app;
 }
